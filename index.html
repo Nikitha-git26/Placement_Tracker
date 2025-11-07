@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Placement Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My Placement Tracker</h1>
+
+    <div class="input-section">
+      <input type="text" id="companyInput" placeholder="Enter company name..." />
+      <select id="typeSelect">
+        <option value="On-Campus">On-Campus</option>
+        <option value="Off-Campus">Off-Campus</option>
+      </select>
+      <select id="statusSelect">
+        <option value="Applied">Applied</option>
+        <option value="Selected">Selected</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+      <button id="addBtn" type="button">Add</button>
+      <button id="clearBtn" type="button" class="clear">Clear All</button>
+    </div>
+
+    <div class="list-section">
+      <h2>Company List</h2>
+      <ul id="companyList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
